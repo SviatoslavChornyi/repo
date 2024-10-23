@@ -21,8 +21,8 @@ logging.basicConfig(filename='bot.log', level=logging.ERROR,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Налаштування шляхів
-download_folder = "C://Users//Святослав//Downloads"
-target_folder = "C://Users//Святослав//Desktop//try_bot"
+download_folder = "/home/root/Downloads"
+target_folder = "/home/root/Desktop/Telegram_Bot_IP"
 csv_file_sasha = os.path.join(target_folder, 'Sasha.csv')
 csv_file_cyber = os.path.join(target_folder, 'Cyber.csv')
 
